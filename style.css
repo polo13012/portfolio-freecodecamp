@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  #welcome-section {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    text-align: right;
+    margin-top: 0px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+  }
+  .button {
+    width: 70px;
+    height: 90px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right:20px;
+    margin-top:-3px;
+    margin-bottom:10px;
+    background-color:red;
+    border:solid red;
+  }
+  .button:hover {
+    background-color:blue;
+  }
+  #section_main {
+    float: left;
+    margin-top: 100px;
+    width:100%;
+    height:800px;
+    background-color:#462119;
+  }
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+  }
+  h2 {
+    text-align: center;
+    color: red;
+  }
+  #projects {
+    background-color: #191970;
+    width: 100%;
+    height: 2400px;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+  }
+  p {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-decoration: underline;
+  }
+  .project-tile {
+    display: inline;
+    width: 400px;
+    height: 400px;
+  }
+  .tile {
+    width: 400px;
+    border: solid grey 1px;
+  }
+  figure {
+    border: solid #191970;
+    text-align: center;
+    padding: 5px;
+    width: 400px;
+    font-size: 20px;
+    float: left;
+  }
+  figcaption {
+    padding-top: 5px;
+    background-color: gray;
+    padding-bottom: 5px;
+  }
+  #main_project {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+  }
+  button {
+    color: white;
+    text-align: center;
+    background-color: #462119;
+    width: 100px;
+    height: 45px;
+    border: none;
+  }
+  button:hover {
+    background-color: red;
+  }
+  #button {
+    padding-left: 940px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  #main_section {
+    background: #462119;
+    width: 100%;
+    height: 800px;
+  }
+  .main {
+    text-decoration: none;
+    padding-top: 100px;
+  }
+  #main {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  @media screen (minwidth:1500px;) {
+    #main_section {
+    }
+  }
+  
